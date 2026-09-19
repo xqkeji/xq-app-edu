@@ -1,0 +1,22 @@
+{
+    "name": "xqkeji/xq-app-edu",
+    "description": "基于新齐低代码开发框架的edu模块",
+    "type": "library",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "xqkeji\\app\\edu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xqkeji.cn"
+        }
+    ],
+    "extra": [],
+    "require": {
+        "xqkeji/xq-app-admin":"^1.0",
+        "xqkeji/xq-com-treegrid":"^1.0"
+    }
+}
