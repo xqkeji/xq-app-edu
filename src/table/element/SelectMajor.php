@@ -4,10 +4,9 @@ namespace xqkeji\app\edu\table\element;
 use xqkeji\form\element\ListSelectModel;
 use xqkeji\mvc\builder\Model;
 
-class SelectDept extends ListSelectModel
+class SelectMajor extends ListSelectModel
 {
-    protected $name = 'dept_id';
-    protected $text = '所属部门';
+    protected $text = '所属专业';
     protected $attrs = [
         'style' => 'min-width:200px;',
     ];

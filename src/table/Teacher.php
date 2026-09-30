@@ -3,19 +3,18 @@ namespace xqkeji\app\edu\table;
 
 use xqkeji\form\Table;
 
-class Course extends Table
+class Teacher extends Table
 {
-    protected $name = 'edu_course';
+    protected $name = 'edu_teacher';
     protected $foot = '@Foot';
 
     // 表格元素列表
     protected $el = [
         '@Id',
-        '@Name',
-        '~SelectMajor',
-        '~SelectTerm',
-        '@Status',
-        '@Ordernum',
+        '~TeacherNo',
+        '@Fullname',
+        '@Sex',
+        '~SelectDept',
         '@CreateTime',
         '@EditDelete',
     ];

@@ -3,15 +3,15 @@ namespace xqkeji\app\edu\form;
 
 use xqkeji\form\Form;
 
-class Course extends Form
+class Major extends Form
 {
-    protected $name = 'course';
+    protected $name = 'major';
 
     // 表单元素列表
     protected $el = [
         '@Name',
-        '~SelectMajor',
-        '~SelectTerm',
+        '~MajorNo',
+        '~SelectDept',
         '@Status',
         '@Ordernum',
         '@SubmitReset',

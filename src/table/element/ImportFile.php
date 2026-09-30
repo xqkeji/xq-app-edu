@@ -1,13 +1,13 @@
 <?php
 namespace xqkeji\app\edu\table\element;
 
-use xqkeji\form\element\ListSelectModel;
+use xqkeji\form\element\ListItem;
 use xqkeji\mvc\builder\Model;
 
-class SelectDept extends ListSelectModel
+class ImportFile extends ListItem
 {
-    protected $name = 'dept_id';
-    protected $text = '所属部门';
+    protected $name = 'import_file';
+    protected $text = '导入文件';
     protected $attrs = [
         'style' => 'min-width:200px;',
     ];

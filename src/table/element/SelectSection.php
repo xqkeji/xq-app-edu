@@ -1,13 +1,13 @@
 <?php
 namespace xqkeji\app\edu\table\element;
 
-use xqkeji\form\element\ListSelectModel;
+use xqkeji\form\element\ListItem;
 use xqkeji\mvc\builder\Model;
 
-class SelectDept extends ListSelectModel
+class SelectSection extends ListItem
 {
-    protected $name = 'dept_id';
-    protected $text = '所属部门';
+    protected $name = 'select_section';
+    protected $text = '所属班级';
     protected $attrs = [
         'style' => 'min-width:200px;',
     ];

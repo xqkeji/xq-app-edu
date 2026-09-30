@@ -1,12 +1,11 @@
 <?php
 namespace xqkeji\app\edu\table\element;
 
-use xqkeji\form\element\ListItem;
-use xqkeji\mvc\builder\Model;
+use xqkeji\form\element\ListSelectModel;
 
-class SelectTerm extends ListItem
+
+class SelectTerm extends ListSelectModel
 {
-    protected $name = 'select_term';
     protected $text = '所属学期';
     protected $attrs = [
         'style' => 'min-width:200px;',

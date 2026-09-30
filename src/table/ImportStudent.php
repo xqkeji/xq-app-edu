@@ -3,20 +3,18 @@ namespace xqkeji\app\edu\table;
 
 use xqkeji\form\Table;
 
-class Course extends Table
+class ImportStudent extends Table
 {
-    protected $name = 'edu_course';
+    protected $name = 'edu_import_student';
     protected $foot = '@Foot';
 
     // 表格元素列表
     protected $el = [
         '@Id',
-        '@Name',
-        '~SelectMajor',
-        '~SelectTerm',
-        '@Status',
-        '@Ordernum',
+        '~SelectSection',
+        '~ImportFile',
+        '~ImportCounts',
         '@CreateTime',
-        '@EditDelete',
+        '@Delete',
     ];
 }
