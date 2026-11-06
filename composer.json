@@ -17,6 +17,6 @@
     "extra": [],
     "require": {
         "xqkeji/xq-app-admin":"^1.0",
-        "xqkeji/xq-com-treegrid":"^1.0"
+        "xqkeji/xq-res-treegrid":"^1.0"
     }
 }
