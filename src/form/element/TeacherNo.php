@@ -12,6 +12,6 @@ class TeacherNo extends Text
         'class' => 'form-control',
     ];
     protected $filters = ['string'];
-    protected $vt = [['required']];
+    protected $vt = ['$required'];
     protected $template = '@row';
 }
