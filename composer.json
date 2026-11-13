@@ -2,7 +2,7 @@
     "name": "xqkeji/xq-app-edu",
     "description": "基于新齐低代码开发框架的edu模块",
     "type": "library",
-    "license": "Apache-2.0",
+    "license": "AGPL-3.0-only",
     "version": "1.0.0",
     "autoload": {
         "psr-4": {
